@@ -1,17 +1,3 @@
-# recipe_creation_task:
-#   description: >
-#     Create a detailed and immersive recipe experience based on the ingredients provided by the user.
-#     The task involves crafting a recipe, weaving a cultural and historical backstory,
-#     and enhancing the experience with a music recommendation from the recipe's country of origin.
-#   expected_output: >
-#     A fully developed recipe, including:
-#     - A list of ingredients
-#     - Step-by-step cooking instructions
-#     - A captivating backstory about the recipe’s cultural significance
-#     - A music recommendation from a niche artist or band of the recipe's origin, including a fun fact
-#   agent:
-#     - chef_agent
-
 ingredient_enrichment_task:
   description: >
     Based on the {{ingredients}} provided by the user, the chef agent should come up with interesting dish from a certain country, recommend additional ingredients 
